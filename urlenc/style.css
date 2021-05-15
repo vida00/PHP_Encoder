@@ -1,0 +1,83 @@
+body{
+	background-image: url("t2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	margin: 0;
+}
+
+p{
+	color:rgb(192, 23, 23);
+	font-size: large;
+}
+
+h1{
+	color:white;
+}
+
+button{
+	background-color: rgba(139, 139, 139, 0.534);
+	border-radius: 5px;
+	border-color: rgba(92, 15, 15, 0.664);
+}
+
+button:hover{
+	background-color: rgba(92, 15, 15, 0.664);
+	color: black;
+}
+
+input{
+	background-color: rgba(139, 139, 139, 0.534);
+	width: 80%;
+	border: solid;
+	border-color: rgba(92, 15, 15, 0.664);
+	border-radius: 2px;
+	border-width: 1px;
+}
+
+input:focus{
+	outline: none;
+}
+
+footer{
+	background-color: #0000007c;
+	height: 5%;
+	margin-top: 635px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(192, 23, 23);
+	font-weight: bold;
+	font-size: large;
+}
+
+a:hover{
+	color: blanchedalmond;
+}
+
+.links{
+	background-color: rgba(0, 0, 0, 0.822);
+	margin-top: 90px;
+	width: 300px;
+}
+
+.quadrado{
+	background-color: rgba(255, 255, 255, 0.027);
+	width: 300px;
+	height: 110px;
+	margin-top: 20px;
+}
+
+.resp{
+	margin-top: 90px;
+	font-size: large;
+	color: bisque;
+}
+
+@media screen and (max-width: 1600px){
+	body{
+		background-size: 1650px;
+	}
+}
